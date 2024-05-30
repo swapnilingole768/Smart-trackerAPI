@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="50" passed="49" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T21:21:56 IST" name="Suite" finished-at="2024-05-30T21:22:18 IST" duration-ms="21703">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T21:21:56 IST" name="Test" finished-at="2024-05-30T21:22:18 IST" duration-ms="21703">
+      <class name="DistributedAdmin.Create_company_CRUD">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Create_company_CRUD@74f0ea28]" started-at="2024-05-30T21:22:07 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:07 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="getCompanyLocations()[pri:1, instance:DistributedAdmin.Create_company_CRUD@74f0ea28]" started-at="2024-05-30T21:22:07 IST" name="getCompanyLocations" description="Get Company Locations" finished-at="2024-05-30T21:22:08 IST" depends-on-methods="DistributedAdmin.Create_company_CRUD.distributorAdminLoginTest" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyLocations -->
+        <test-method signature="createCompanyLocationTest()[pri:2, instance:DistributedAdmin.Create_company_CRUD@74f0ea28]" started-at="2024-05-30T21:22:08 IST" name="createCompanyLocationTest" description="Create Location" finished-at="2024-05-30T21:22:08 IST" depends-on-methods="DistributedAdmin.Create_company_CRUD.distributorAdminLoginTest" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompanyLocationTest -->
+        <test-method signature="getCompanyLocationsById()[pri:3, instance:DistributedAdmin.Create_company_CRUD@74f0ea28]" started-at="2024-05-30T21:22:08 IST" name="getCompanyLocationsById" description="Get Company Locations By ID" finished-at="2024-05-30T21:22:08 IST" depends-on-methods="DistributedAdmin.Create_company_CRUD.distributorAdminLoginTest" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyLocationsById -->
+        <test-method signature="updateCompanyLocationByIdTest()[pri:4, instance:DistributedAdmin.Create_company_CRUD@74f0ea28]" started-at="2024-05-30T21:22:08 IST" name="updateCompanyLocationByIdTest" description="Update Location For Company" finished-at="2024-05-30T21:22:08 IST" depends-on-methods="DistributedAdmin.Create_company_CRUD.distributorAdminLoginTest" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCompanyLocationByIdTest -->
+      </class> <!-- DistributedAdmin.Create_company_CRUD -->
+      <class name="DistributedAdmin.Maintainer_Crud">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Maintainer_Crud@38d8f54a]" started-at="2024-05-30T21:22:15 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:16 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="createCompanyLocationTest()[pri:2, instance:DistributedAdmin.Maintainer_Crud@38d8f54a]" started-at="2024-05-30T21:22:16 IST" name="createCompanyLocationTest" description="Create Location" finished-at="2024-05-30T21:22:16 IST" depends-on-methods="DistributedAdmin.Maintainer_Crud.distributorAdminLoginTest" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompanyLocationTest -->
+        <test-method signature="getCompanyLocationTest()[pri:3, instance:DistributedAdmin.Maintainer_Crud@38d8f54a]" started-at="2024-05-30T21:22:16 IST" name="getCompanyLocationTest" description="Get Location" finished-at="2024-05-30T21:22:17 IST" depends-on-methods="DistributedAdmin.Maintainer_Crud.createCompanyLocationTest" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyLocationTest -->
+        <test-method signature="updateCompanyLocationTest()[pri:3, instance:DistributedAdmin.Maintainer_Crud@38d8f54a]" started-at="2024-05-30T21:22:17 IST" name="updateCompanyLocationTest" description="Update Location" finished-at="2024-05-30T21:22:17 IST" depends-on-methods="DistributedAdmin.Maintainer_Crud.createCompanyLocationTest" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCompanyLocationTest -->
+      </class> <!-- DistributedAdmin.Maintainer_Crud -->
+      <class name="SuperAdmin.Distributor_Admin_Crud">
+        <test-method signature="superAdminLoginTest()[pri:0, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:04 IST" name="superAdminLoginTest" finished-at="2024-05-30T21:22:04 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superAdminLoginTest -->
+        <test-method signature="createDistributorAdminTest()[pri:1, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:04 IST" name="createDistributorAdminTest" description="Call API with Token" finished-at="2024-05-30T21:22:05 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDistributorAdminTest -->
+        <test-method signature="getAlldistributorAdmins()[pri:2, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:05 IST" name="getAlldistributorAdmins" description="All Distributor Admins List" finished-at="2024-05-30T21:22:06 IST" depends-on-methods="SuperAdmin.Distributor_Admin_Crud.superAdminLoginTest" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlldistributorAdmins -->
+        <test-method signature="getDistributorAdminById()[pri:3, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:06 IST" name="getDistributorAdminById" description=" Distributor admin By ID" finished-at="2024-05-30T21:22:06 IST" depends-on-methods="SuperAdmin.Distributor_Admin_Crud.superAdminLoginTest" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorAdminById -->
+        <test-method signature="updateDistributorAdminById()[pri:4, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:06 IST" name="updateDistributorAdminById" description="Update distributor admin By ID" finished-at="2024-05-30T21:22:07 IST" depends-on-methods="SuperAdmin.Distributor_Admin_Crud.superAdminLoginTest" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDistributorAdminById -->
+        <test-method signature="DeleteDistributorAdminById()[pri:5, instance:SuperAdmin.Distributor_Admin_Crud@1283bb96]" started-at="2024-05-30T21:22:07 IST" name="DeleteDistributorAdminById" description=" Distributor admin By ID" finished-at="2024-05-30T21:22:07 IST" depends-on-methods="SuperAdmin.Distributor_Admin_Crud.superAdminLoginTest" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDistributorAdminById -->
+      </class> <!-- SuperAdmin.Distributor_Admin_Crud -->
+      <class name="DistributorUser.DistributorUserAccess">
+        <test-method signature="distributorUserLoginTest()[pri:0, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:12 IST" name="distributorUserLoginTest" finished-at="2024-05-30T21:22:13 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorUserLoginTest -->
+        <test-method signature="getAllCylinderSize()[pri:1, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:13 IST" name="getAllCylinderSize" description="All Cylinder Size List" finished-at="2024-05-30T21:22:13 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCylinderSize -->
+        <test-method signature="getCylinderSizeById()[pri:2, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:13 IST" name="getCylinderSizeById" description="All Cylinder Size By ID" finished-at="2024-05-30T21:22:13 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCylinderSizeById -->
+        <test-method signature="getAllCylinderGas()[pri:3, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:13 IST" name="getAllCylinderGas" description="All Cylinder Gas List" finished-at="2024-05-30T21:22:13 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCylinderGas -->
+        <test-method signature="getCylinderGasById()[pri:4, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:13 IST" name="getCylinderGasById" description="Cylinder Gas By ID" finished-at="2024-05-30T21:22:13 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCylinderGasById -->
+        <test-method signature="getCompanyCylinder()[pri:5, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:13 IST" name="getCompanyCylinder" description="Get Company All Cylinder" finished-at="2024-05-30T21:22:14 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyCylinder -->
+        <test-method signature="getCompanyCylinderById()[pri:6, instance:DistributorUser.DistributorUserAccess@3349e9bb]" started-at="2024-05-30T21:22:14 IST" name="getCompanyCylinderById" description="Get Company Cylinder By Id" finished-at="2024-05-30T21:22:14 IST" depends-on-methods="DistributorUser.DistributorUserAccess.distributorUserLoginTest" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyCylinderById -->
+      </class> <!-- DistributorUser.DistributorUserAccess -->
+      <class name="DistributedAdmin.Distributor_User_CRUD">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Distributor_User_CRUD@3c19aaa5]" started-at="2024-05-30T21:22:10 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:10 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="createDistributorUserTest()[pri:1, instance:DistributedAdmin.Distributor_User_CRUD@3c19aaa5]" started-at="2024-05-30T21:22:10 IST" name="createDistributorUserTest" description="Create Distributor User" finished-at="2024-05-30T21:22:11 IST" depends-on-methods="DistributedAdmin.Distributor_User_CRUD.distributorAdminLoginTest" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDistributorUserTest -->
+        <test-method signature="getDistributorUserById()[pri:2, instance:DistributedAdmin.Distributor_User_CRUD@3c19aaa5]" started-at="2024-05-30T21:22:11 IST" name="getDistributorUserById" description="Distributor User By ID" finished-at="2024-05-30T21:22:11 IST" depends-on-methods="DistributedAdmin.Distributor_User_CRUD.distributorAdminLoginTest" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorUserById -->
+        <test-method signature="updateDistributorUserTest()[pri:3, instance:DistributedAdmin.Distributor_User_CRUD@3c19aaa5]" started-at="2024-05-30T21:22:11 IST" name="updateDistributorUserTest" description="Update Distributor User" finished-at="2024-05-30T21:22:12 IST" depends-on-methods="DistributedAdmin.Distributor_User_CRUD.distributorAdminLoginTest" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDistributorUserTest -->
+        <test-method signature="DeleteDistributorUserById()[pri:4, instance:DistributedAdmin.Distributor_User_CRUD@3c19aaa5]" started-at="2024-05-30T21:22:12 IST" name="DeleteDistributorUserById" description=" Distributor User By ID" finished-at="2024-05-30T21:22:12 IST" depends-on-methods="DistributedAdmin.Distributor_User_CRUD.distributorAdminLoginTest" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDistributorUserById -->
+      </class> <!-- DistributedAdmin.Distributor_User_CRUD -->
+      <class name="DistributedAdmin.Refiller_Crud">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Refiller_Crud@49e53c76]" started-at="2024-05-30T21:22:17 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:17 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="createCompanyLocationTest()[pri:2, instance:DistributedAdmin.Refiller_Crud@49e53c76]" started-at="2024-05-30T21:22:17 IST" name="createCompanyLocationTest" description="Create Location" finished-at="2024-05-30T21:22:18 IST" depends-on-methods="DistributedAdmin.Refiller_Crud.distributorAdminLoginTest" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompanyLocationTest -->
+        <test-method signature="getCompanyLocationTest()[pri:3, instance:DistributedAdmin.Refiller_Crud@49e53c76]" started-at="2024-05-30T21:22:18 IST" name="getCompanyLocationTest" description="Get Location" finished-at="2024-05-30T21:22:18 IST" depends-on-methods="DistributedAdmin.Refiller_Crud.createCompanyLocationTest" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyLocationTest -->
+      </class> <!-- DistributedAdmin.Refiller_Crud -->
+      <class name="DistributedAdmin.Create_Cylinder_CRUD">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:08 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:08 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="getCompanyCylinder()[pri:1, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:08 IST" name="getCompanyCylinder" description="Get Company All Cylinder" finished-at="2024-05-30T21:22:09 IST" depends-on-methods="DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyCylinder -->
+        <test-method signature="getCompanyCylinderById()[pri:2, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:09 IST" name="getCompanyCylinderById" description="Get Company Cylinder By Id" finished-at="2024-05-30T21:22:09 IST" depends-on-methods="DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanyCylinderById -->
+        <test-method signature="createCompanyCylinderTest()[pri:3, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:09 IST" name="createCompanyCylinderTest" description="Create Cylinder" finished-at="2024-05-30T21:22:09 IST" depends-on-methods="DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompanyCylinderTest -->
+        <test-method signature="updateCompanyLocationByIdTest()[pri:4, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:09 IST" name="updateCompanyLocationByIdTest" description="Update Cylinder" finished-at="2024-05-30T21:22:09 IST" depends-on-methods="DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCompanyLocationByIdTest -->
+        <test-method signature="DeleteDistributorUserById()[pri:5, instance:DistributedAdmin.Create_Cylinder_CRUD@f6efaab]" started-at="2024-05-30T21:22:09 IST" name="DeleteDistributorUserById" description=" Delete Location" finished-at="2024-05-30T21:22:10 IST" depends-on-methods="DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDistributorUserById -->
+      </class> <!-- DistributedAdmin.Create_Cylinder_CRUD -->
+      <class name="DistributedAdmin.Customers_CRUD">
+        <test-method signature="distributorAdminLoginTest()[pri:0, instance:DistributedAdmin.Customers_CRUD@409bf450]" started-at="2024-05-30T21:22:14 IST" name="distributorAdminLoginTest" finished-at="2024-05-30T21:22:14 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- distributorAdminLoginTest -->
+        <test-method signature="createCompanyLocationTest()[pri:2, instance:DistributedAdmin.Customers_CRUD@409bf450]" started-at="2024-05-30T21:22:14 IST" name="createCompanyLocationTest" description="Create Location" finished-at="2024-05-30T21:22:15 IST" depends-on-methods="DistributedAdmin.Customers_CRUD.distributorAdminLoginTest" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompanyLocationTest -->
+        <test-method signature="updateCompanyLocationTest()[pri:3, instance:DistributedAdmin.Customers_CRUD@409bf450]" started-at="2024-05-30T21:22:15 IST" name="updateCompanyLocationTest" description="Update Location" finished-at="2024-05-30T21:22:15 IST" depends-on-methods="DistributedAdmin.Customers_CRUD.createCompanyLocationTest" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCompanyLocationTest -->
+      </class> <!-- DistributedAdmin.Customers_CRUD -->
+      <class name="SuperAdmin.Cylinder_CRUD">
+        <test-method signature="superAdminLoginTest()[pri:0, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:21:57 IST" name="superAdminLoginTest" finished-at="2024-05-30T21:22:01 IST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superAdminLoginTest -->
+        <test-method signature="createCylinderSizeTestwithToken()[pri:1, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:01 IST" name="createCylinderSizeTestwithToken" description="Call API without Token" finished-at="2024-05-30T21:22:01 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCylinderSizeTestwithToken -->
+        <test-method signature="createCylinderSizeTest()[pri:2, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:01 IST" name="createCylinderSizeTest" description="Call API with Token" finished-at="2024-05-30T21:22:02 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCylinderSizeTest -->
+        <test-method signature="getAllCylinder()[pri:3, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:02 IST" name="getAllCylinder" description="All Cylinder List" finished-at="2024-05-30T21:22:02 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCylinder -->
+        <test-method signature="getCylinderById()[pri:4, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:02 IST" name="getCylinderById" description="All Cylinder By ID" finished-at="2024-05-30T21:22:02 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCylinderById -->
+        <test-method signature="updateCylinderById()[pri:5, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:02 IST" name="updateCylinderById" description="Update Cylinder By ID" finished-at="2024-05-30T21:22:02 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCylinderById -->
+        <test-method signature="createCylinderGasTest()[pri:6, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:02 IST" name="createCylinderGasTest" description="Create Gas API" finished-at="2024-05-30T21:22:03 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCylinderGasTest -->
+        <test-method signature="getAllCylinderGas()[pri:7, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:03 IST" name="getAllCylinderGas" description="All Cylinder Gas List" finished-at="2024-05-30T21:22:03 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCylinderGas -->
+        <test-method signature="getCylinderGasById()[pri:8, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:03 IST" name="getCylinderGasById" description="Cylinder Gas By ID" finished-at="2024-05-30T21:22:03 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCylinderGasById -->
+        <test-method signature="updateCylinderGasById()[pri:9, instance:SuperAdmin.Cylinder_CRUD@747ddf94]" started-at="2024-05-30T21:22:03 IST" name="updateCylinderGasById" description="Update Cylinder Gas By ID" finished-at="2024-05-30T21:22:04 IST" depends-on-methods="SuperAdmin.Cylinder_CRUD.superAdminLoginTest" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCylinderGasById -->
+      </class> <!-- SuperAdmin.Cylinder_CRUD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,325 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 30 21:21:56 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21703 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.updateCylinderGasById()'><b>updateCylinderGasById</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Update Cylinder Gas By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.getCylinderById()'><b>getCylinderById</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: All Cylinder By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.createCylinderSizeTestwithToken()'><b>createCylinderSizeTestwithToken</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Call API without Token</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Maintainer_Crud.getCompanyLocationTest()'><b>getCompanyLocationTest</b><br>Test class: DistributedAdmin.Maintainer_Crud<br>Test method: Get Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Maintainer_Crud@38d8f54a</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.superAdminLoginTest()'><b>superAdminLoginTest</b><br>Test class: SuperAdmin.Cylinder_CRUD</td>
+<td></td>
+<td>4</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Distributor_User_CRUD.createDistributorUserTest()'><b>createDistributorUserTest</b><br>Test class: DistributedAdmin.Distributor_User_CRUD<br>Test method: Create Distributor User</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Distributor_User_CRUD@3c19aaa5</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.getAllCylinder()'><b>getAllCylinder</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: All Cylinder List</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.createDistributorAdminTest()'><b>createDistributorAdminTest</b><br>Test class: SuperAdmin.Distributor_Admin_Crud<br>Test method: Call API with Token</td>
+<td></td>
+<td>1</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getCompanyCylinderById()'><b>getCompanyCylinderById</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: Get Company Cylinder By Id</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getAllCylinderSize()'><b>getAllCylinderSize</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: All Cylinder Size List</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='DistributedAdmin.Refiller_Crud.getCompanyLocationTest()'><b>getCompanyLocationTest</b><br>Test class: DistributedAdmin.Refiller_Crud<br>Test method: Get Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Refiller_Crud@49e53c76</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.getAlldistributorAdmins()'><b>getAlldistributorAdmins</b><br>Test class: SuperAdmin.Distributor_Admin_Crud<br>Test method: All Distributor Admins List</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='DistributedAdmin.Distributor_User_CRUD.DeleteDistributorUserById()'><b>DeleteDistributorUserById</b><br>Test class: DistributedAdmin.Distributor_User_CRUD<br>Test method:  Distributor User By ID</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Distributor_User_CRUD@3c19aaa5</td></tr>
+<tr>
+<td title='DistributedAdmin.Refiller_Crud.createCompanyLocationTest()'><b>createCompanyLocationTest</b><br>Test class: DistributedAdmin.Refiller_Crud<br>Test method: Create Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Refiller_Crud@49e53c76</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.DeleteDistributorUserById()'><b>DeleteDistributorUserById</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD<br>Test method:  Delete Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.getCylinderGasById()'><b>getCylinderGasById</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Cylinder Gas By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Customers_CRUD.createCompanyLocationTest()'><b>createCompanyLocationTest</b><br>Test class: DistributedAdmin.Customers_CRUD<br>Test method: Create Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Customers_CRUD@409bf450</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.distributorUserLoginTest()'><b>distributorUserLoginTest</b><br>Test class: DistributorUser.DistributorUserAccess</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.createCylinderGasTest()'><b>createCylinderGasTest</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Create Gas API</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Maintainer_Crud.createCompanyLocationTest()'><b>createCompanyLocationTest</b><br>Test class: DistributedAdmin.Maintainer_Crud<br>Test method: Create Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Maintainer_Crud@38d8f54a</td></tr>
+<tr>
+<td title='DistributedAdmin.Customers_CRUD.updateCompanyLocationTest()'><b>updateCompanyLocationTest</b><br>Test class: DistributedAdmin.Customers_CRUD<br>Test method: Update Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Customers_CRUD@409bf450</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.getAllCylinderGas()'><b>getAllCylinderGas</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: All Cylinder Gas List</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.createCompanyCylinderTest()'><b>createCompanyCylinderTest</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD<br>Test method: Create Cylinder</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='DistributedAdmin.Distributor_User_CRUD.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Distributor_User_CRUD</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Distributor_User_CRUD@3c19aaa5</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.createCylinderSizeTest()'><b>createCylinderSizeTest</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Call API with Token</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Maintainer_Crud.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Maintainer_Crud</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Maintainer_Crud@38d8f54a</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.getDistributorAdminById()'><b>getDistributorAdminById</b><br>Test class: SuperAdmin.Distributor_Admin_Crud<br>Test method:  Distributor admin By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_company_CRUD.createCompanyLocationTest()'><b>createCompanyLocationTest</b><br>Test class: DistributedAdmin.Create_company_CRUD<br>Test method: Create Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_company_CRUD@74f0ea28</td></tr>
+<tr>
+<td title='DistributedAdmin.Distributor_User_CRUD.updateDistributorUserTest()'><b>updateDistributorUserTest</b><br>Test class: DistributedAdmin.Distributor_User_CRUD<br>Test method: Update Distributor User</td>
+<td></td>
+<td>1</td>
+<td>DistributedAdmin.Distributor_User_CRUD@3c19aaa5</td></tr>
+<tr>
+<td title='SuperAdmin.Cylinder_CRUD.updateCylinderById()'><b>updateCylinderById</b><br>Test class: SuperAdmin.Cylinder_CRUD<br>Test method: Update Cylinder By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Cylinder_CRUD@747ddf94</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_company_CRUD.getCompanyLocations()'><b>getCompanyLocations</b><br>Test class: DistributedAdmin.Create_company_CRUD<br>Test method: Get Company Locations</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_company_CRUD@74f0ea28</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getCylinderSizeById()'><b>getCylinderSizeById</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: All Cylinder Size By ID</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_company_CRUD.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Create_company_CRUD</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_company_CRUD@74f0ea28</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.getCompanyCylinder()'><b>getCompanyCylinder</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD<br>Test method: Get Company All Cylinder</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getCylinderGasById()'><b>getCylinderGasById</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: Cylinder Gas By ID</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='DistributedAdmin.Maintainer_Crud.updateCompanyLocationTest()'><b>updateCompanyLocationTest</b><br>Test class: DistributedAdmin.Maintainer_Crud<br>Test method: Update Location</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Maintainer_Crud@38d8f54a</td></tr>
+<tr>
+<td title='DistributedAdmin.Customers_CRUD.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Customers_CRUD</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Customers_CRUD@409bf450</td></tr>
+<tr>
+<td title='DistributedAdmin.Distributor_User_CRUD.getDistributorUserById()'><b>getDistributorUserById</b><br>Test class: DistributedAdmin.Distributor_User_CRUD<br>Test method: Distributor User By ID</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Distributor_User_CRUD@3c19aaa5</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.superAdminLoginTest()'><b>superAdminLoginTest</b><br>Test class: SuperAdmin.Distributor_Admin_Crud</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.updateDistributorAdminById()'><b>updateDistributorAdminById</b><br>Test class: SuperAdmin.Distributor_Admin_Crud<br>Test method: Update distributor admin By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='DistributedAdmin.Refiller_Crud.distributorAdminLoginTest()'><b>distributorAdminLoginTest</b><br>Test class: DistributedAdmin.Refiller_Crud</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Refiller_Crud@49e53c76</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_company_CRUD.updateCompanyLocationByIdTest()'><b>updateCompanyLocationByIdTest</b><br>Test class: DistributedAdmin.Create_company_CRUD<br>Test method: Update Location For Company</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_company_CRUD@74f0ea28</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getCompanyCylinder()'><b>getCompanyCylinder</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: Get Company All Cylinder</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+<tr>
+<td title='SuperAdmin.Distributor_Admin_Crud.DeleteDistributorAdminById()'><b>DeleteDistributorAdminById</b><br>Test class: SuperAdmin.Distributor_Admin_Crud<br>Test method:  Distributor admin By ID</td>
+<td></td>
+<td>0</td>
+<td>SuperAdmin.Distributor_Admin_Crud@1283bb96</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.getCompanyCylinderById()'><b>getCompanyCylinderById</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD<br>Test method: Get Company Cylinder By Id</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_Cylinder_CRUD.updateCompanyLocationByIdTest()'><b>updateCompanyLocationByIdTest</b><br>Test class: DistributedAdmin.Create_Cylinder_CRUD<br>Test method: Update Cylinder</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_Cylinder_CRUD@f6efaab</td></tr>
+<tr>
+<td title='DistributedAdmin.Create_company_CRUD.getCompanyLocationsById()'><b>getCompanyLocationsById</b><br>Test class: DistributedAdmin.Create_company_CRUD<br>Test method: Get Company Locations By ID</td>
+<td></td>
+<td>0</td>
+<td>DistributedAdmin.Create_company_CRUD@74f0ea28</td></tr>
+<tr>
+<td title='DistributorUser.DistributorUserAccess.getAllCylinderGas()'><b>getAllCylinderGas</b><br>Test class: DistributorUser.DistributorUserAccess<br>Test method: All Cylinder Gas List</td>
+<td></td>
+<td>0</td>
+<td>DistributorUser.DistributorUserAccess@3349e9bb</td></tr>
+</table><p>
+</body>
+</html>
